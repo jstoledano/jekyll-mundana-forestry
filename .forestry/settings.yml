@@ -9,6 +9,10 @@ sections:
   create: documents
   templates:
   - post
+- type: document
+  path: about
+  label: About me
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: documents
